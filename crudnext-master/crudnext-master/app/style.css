@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root {
+  --orange-light: #F2EAE1;
+  --orange: #FEAF00;
+ 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 270px;
+height: 900px;
+flex-shrink: 0;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: var(--orange-light);
+  width: 270px;
+  height: 900px;
+  flex-shrink: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  margin-top: auto; 
+}
+h3{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h5{
+  color:var(--orange);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  color:#000000;
+}
+
+.user-img{
+  border-radius: 50%;
+  top: 222px;
+}
+.form{
+  width: 1170px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-left: 82%;
+  margin-top: -73%;
+}
+
+input.search {
+  width: 164px;
+  border: 1px solid #555;
+  border-radius: 10px;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("../images/search\ 1.svg") no-repeat 13px;
+}
+.bell{
+  margin-left: 15%;
+  padding-top: 2%;
+}
+h1{
+  padding-left: 30%;
+}
+.line{
+  padding-top: 0%;
+  padding-left: 39%;
+}
+
+.flex-countainer{
+  justify-content: space-around;
+}
